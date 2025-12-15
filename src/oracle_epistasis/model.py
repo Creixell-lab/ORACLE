@@ -9,8 +9,6 @@ import pandas as pd
 from scipy import sparse, special, stats
 from scipy.optimize import root_scalar
 
-from __future__ import annotations
-
 from itertools import combinations
 from collections import defaultdict
 from typing import Iterable, Sequence

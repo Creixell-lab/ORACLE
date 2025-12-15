@@ -18,10 +18,9 @@ class EpistasisRunConfig:
     variant_col: str
     phenotype_col: str
     n: int
+    max_order: int
     k: int | None = None
     wildcard: str = "*"
-    alphabet: Sequence[str] | None = None
-    max_order: int
     alphabet: Sequence[str] | None = None  # if None -> ["0","1",...,"k-1"]
 
 

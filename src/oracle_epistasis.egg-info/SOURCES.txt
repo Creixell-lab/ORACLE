@@ -2,8 +2,13 @@ README.md
 pyproject.toml
 setup.py
 src/oracle_epistasis/__init__.py
+src/oracle_epistasis/cli.py
+src/oracle_epistasis/io.py
+src/oracle_epistasis/model.py
+src/oracle_epistasis/pipeline.py
 src/oracle_epistasis.egg-info/PKG-INFO
 src/oracle_epistasis.egg-info/SOURCES.txt
 src/oracle_epistasis.egg-info/dependency_links.txt
+src/oracle_epistasis.egg-info/entry_points.txt
 src/oracle_epistasis.egg-info/requires.txt
 src/oracle_epistasis.egg-info/top_level.txt
