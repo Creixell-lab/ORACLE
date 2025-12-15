@@ -16,6 +16,8 @@ Allyson Li<sup>2</sup>, Neel H. Shah<sup>2</sup>, Jesse Rinehart<sup>3,4</sup>, 
 
 <sup>*</sup> Corresponding author
 
+## Description of the technique
+
 Code for WT independent Epistasis Calculations
 ![image](https://github.com/user-attachments/assets/828ab39c-3dbe-401e-9115-7d4a017cb8cb)
 
@@ -30,7 +32,7 @@ https://colab.research.google.com/github/Creixell-lab/epystasis/blob/main/Epista
 This colab file allows an interactive parsing of the underlying logic and pipeline of the approach.
 
 
-ORACLE is a WT-agnostic, Walsh-Hadamard based framework that can treats phenotype-genotype datasets using a CDMS (combinatorial deep mutational scanning) approach with interpretable epistasis modelling to generate 1st order, 2nd order, 3rd order and higher order of epistasis coefficients. With this coefficients, we can quantify protein interaction landscapes and show interactions that can be explained with single mutations (1st order) and interactions that rely on cumulative, additive interactions of amino acids. Using these epistasis coefficients can also help to predict out of sample phenotypes for missing or unsampled variants.
+ORACLE is a WT-agnostic, Walsh-Hadamard based framework that can treats phenotype-genotype datasets using a CDMS (combinatorial deep mutational scanning) approach with interpretable epistasis modelling to generate 1st order, 2nd order, 3rd order and higher order of epistasis coefficients. With this coefficients, we can quantify protein interaction landscapes and show interactions that can be explained with single mutations (1st order) and interactions that rely on cumulative, additive interactions of amino acids. Using these epistasis coefficients can also help to predict out of sample phenotypes for missing or unsampled variants, with high degrees of confidence with as sparse as 1% of the fitness landscape. This approach expands on the exisiting Walsh-Hadamard matrices, but are now configured to be wild-type free without need for referencing to a particular backround, and is able to analytically generate all mutational paths involved in a statistical epistasis calculation to explain the contributions leading to a wild-type independent epistasis coefficient value. 
 
 ## Installation guide
 
