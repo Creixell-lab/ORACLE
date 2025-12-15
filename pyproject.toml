@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oracle_epistasis"
+version = "0.1.0"
+description = "WT-independent Epistasis Calculations and Linearisation Pipeline"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+  {name = "Your Name", email = "your.email@example.com"}
+]
+keywords = ["epistasis", "bioinformatics", "protein-engineering"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+]
+
+# These install dependencies automatically when you pip install this library
+dependencies = [
+    "numpy>=1.26.0",
+    "pandas>=2.0.0",
+    "scipy>=1.10.0",
+    "statsmodels>=0.14.0",
+    "scikit-learn>=1.0.0",
+    "biopython>=1.80",
+    "logomaker>=0.8",
+    "matplotlib>=3.5.0",
+    "tqdm>=4.60.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Creixell-lab/ORACLE"
