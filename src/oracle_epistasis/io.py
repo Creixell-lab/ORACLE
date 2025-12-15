@@ -37,3 +37,17 @@ def add_position_columns(
         out[col] = s.str[i]
 
     return out
+
+
+def infer_alphabet_from_variant_col(df: pd.DataFrame, *, variant_col: str, wildcard: str="*") -> list[str]:
+    seen: list[str] = []
+    for s in df[variant_col].astype(str):
+        for ch in s:
+            if ch == wildcard:
+                continue
+            if ch not in seen:
+                seen.append(ch)
+    if not seen:
+        raise ValueError(f"Could not infer alphabet from column '{variant_col}'")
+    return seen
+

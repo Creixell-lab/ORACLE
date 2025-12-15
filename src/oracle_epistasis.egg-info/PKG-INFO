@@ -1,0 +1,39 @@
+Metadata-Version: 2.4
+Name: oracle_epistasis
+Version: 0.1.0
+Summary: WT-independent Epistasis Calculations and Linearisation Pipeline
+Author-email: Mingxuan Jiang <mj582@cam.ac.uk>
+License: MIT
+Project-URL: Homepage, https://github.com/Creixell-lab/ORACLE
+Keywords: epistasis,Wild-type independent,protein-engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research/Bioengineering/Protein/Epistasis
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: scipy>=1.10.0
+Requires-Dist: statsmodels>=0.14.0
+Requires-Dist: scikit-learn>=1.0.0
+Requires-Dist: biopython>=1.80
+Requires-Dist: logomaker>=0.8
+Requires-Dist: matplotlib>=3.5.0
+Requires-Dist: tqdm>=4.60.0
+Dynamic: requires-python
+
+# ORACLE
+Code for WT independent Epistasis Calculations
+![image](https://github.com/user-attachments/assets/828ab39c-3dbe-401e-9115-7d4a017cb8cb)
+
+
+
+
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Creixell-lab/epystasis/blob/main/Epistasis_20250811.ipynb)
+
+Google colab file is at:
+https://colab.research.google.com/github/Creixell-lab/epystasis/blob/main/Epistasis_20250811.ipynb
+
+
+ORACLE is a WT-agnostic, Walsh-Hadamard based framework that can treats phenotype-genotype datasets using a CDMS (combinatorial deep mutational scanning) approach with interpretable epistasis modelling to generate 1st order, 2nd order, 3rd order and higher order of epistasis coefficients. With this coefficients, we can quantify protein interaction landscapes and show interactions that can be explained with single mutations (1st order) and interactions that rely on cumulative, additive interactions of amino acids. Using these epistasis coefficients can also help to predict out of sample phenotypes for missing or unsampled variants.
