@@ -10,9 +10,9 @@ def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="oracle-epistasis")
     p.add_argument("--input", required=True, type=Path)
     p.add_argument("--outdir", required=True, type=Path)
-    p.add_argument("--variant-col", required=True)
-    p.add_argument("--phenotype-col", required=True)
-    p.add_argument("--n", required=True, type=int)
+    p.add_argument("--variant-col", required=True,  help="The column of the dataset with the genotype of interest")
+    p.add_argument("--phenotype-col", required=True, help="The column of the dataset with the phenotype of interest: enrichment score etc")
+    p.add_argument("--n", required=True, type=int, help="Number of positions in a protein of interest, note: massive N^k values are unfeasible")
     p.add_argument("--k", type=int, default=None, help="Alphabet size. If omitted, inferred from --alphabet or data.")
     p.add_argument("--max-order", default=1, type=int)
 
