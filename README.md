@@ -50,4 +50,44 @@ This guide details how to install the ORACLE package locally for development and
 ### 1. Clone the Repository
 First, download the code to your local machine:
 
+```bash
 git clone [https://github.com/Creixell-lab/ORACLE.git](https://github.com/Creixell-lab/ORACLE.git)
+cd ORACLE
+```
+
+### 2. Create environment
+
+```bash
+python3 -m venv .venv # or any other environment name
+```
+
+### 3. Activate environment
+
+```bash
+source .venv/bin/activate
+```
+
+### 4. Install dependencies
+
+```bash
+python -m pip install -U pip setuptools wheel
+python -m pip install -e .
+```
+
+### 5. Verify installation
+
+```bash
+oracle-epistasis --help
+```
+
+### 6. Run Example
+
+```bash
+oracle-epistasis \
+  --input "example_files/210825_PIN1_36_library.csv" \
+  --outdir "./oracle_output" \
+  --variant-col pep_encoded \
+  --phenotype-col PD_input_mean \
+  --n 6 --k 3 --max-order 3 \
+  --alphabet a,b,c
+```
