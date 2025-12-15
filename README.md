@@ -51,7 +51,7 @@ This guide details how to install the ORACLE package locally for development and
 First, download the code to your local machine:
 
 ```bash
-git clone [https://github.com/Creixell-lab/ORACLE.git](https://github.com/Creixell-lab/ORACLE.git)
+git clone https://github.com/Creixell-lab/ORACLE.git
 cd ORACLE
 ```
 
