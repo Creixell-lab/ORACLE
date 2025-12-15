@@ -1,4 +1,21 @@
-# ORACLE
+# ORACLE: ORigins and Context-independent Analysis of CDMS Libraries for Epistasis
+
+This is the official repository of ORACLE for the paper:
+Identifying Protein Superbinders and Molecular Determinants of Epistasis with Combinatorial Deep Mutational Scanning (CDMS) Libraries
+
+Mingxuan Jiang<sup>1</sup>, Mohan Sun<sup>1</sup>, Nuo Cheng<sup>1</sup>, Mihkel Örd<sup>1</sup>, Teresa L. Augustin<sup>1</sup>,  
+Allyson Li<sup>2</sup>, Neel H. Shah<sup>2</sup>, Jesse Rinehart<sup>3,4</sup>, Helen R. Mott<sup>5</sup>, Pau Creixell<sup>1</sup><sup>*</sup>
+
+## Affiliations
+
+<sup>1</sup> Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Robinson Way, Cambridge CB2 0RE, UK  
+<sup>2</sup> Department of Chemistry, Columbia University, 3000 Broadway, New York, NY 10027, USA  
+<sup>3</sup> Department of Cellular & Molecular Physiology, Yale School of Medicine, New Haven, CT 06520, USA  
+<sup>4</sup> Systems Biology Institute, Yale University, West Haven, CT 06516, USA  
+<sup>5</sup> Department of Biochemistry, University of Cambridge, Tennis Court Road, Cambridge CB2 1QW, UK  
+
+<sup>*</sup> Corresponding author
+
 Code for WT independent Epistasis Calculations
 ![image](https://github.com/user-attachments/assets/828ab39c-3dbe-401e-9115-7d4a017cb8cb)
 
