@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "oracle_epistasis"
+name = "oracle-epistasis"
 version = "0.1.0"
-description = "WT-independent Epistasis Calculations and Linearisation Pipeline"
+description = "WT-independent epistasis calculations and linearisation pipeline using "
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
@@ -34,3 +34,12 @@ dependencies = [
 
 [project.urls]
 "Homepage" = "https://github.com/Creixell-lab/ORACLE"
+
+[project.scripts]
+oracle-epistasis = "oracle_epistasis.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
