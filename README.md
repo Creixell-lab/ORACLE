@@ -96,8 +96,8 @@ oracle-epistasis \
 
 **Input Parameters:**
 
-* `--input`: Path to the input `.csv` file (can be tab or comma delimited). Example: * **File:** `/blob/main/example_files/210825_PIN1_36_library.csv`
-* `--outdir`: Path to the directory where output files will be saved.
+* `--input`: Path to the input `.csv` file (can be tab or comma delimited). 
+* **Example:** [`example_files/210825_PIN1_36_library.csv`](https://github.com/Creixell-lab/ORACLE/blob/main/example_files/210825_PIN1_36_library.csv)
 * `--variant-col`: Column name containing the variant sequences (genotypes). These can be encoded or actual amino acids.
 * `--phenotype-col`: Column name containing the experimental or computational phenotype measurement.
 * `--n`: The length of the sequence (number of positions).
