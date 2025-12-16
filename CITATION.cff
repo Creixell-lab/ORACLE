@@ -1,0 +1,79 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper listed in preferred-citation."
+title: "ORACLE: ORigins and Context-independent Analysis of CDMS Libraries for Epistasis"
+type: software
+license: MIT
+repository-code: "https://github.com/Creixell-lab/ORACLE"
+url: "https://github.com/Creixell-lab/ORACLE"
+keywords:
+  - epistasis
+  - combinatorial deep mutational scanning
+  - CDMS
+  - Walsh-Hadamard
+  - protein engineering
+
+authors:
+  - family-names: Jiang
+    given-names: Mingxuan
+    affiliation: "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Robinson Way, Cambridge CB2 0RE, UK"
+  - family-names: Sun
+    given-names: Mohan
+    affiliation: "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Robinson Way, Cambridge CB2 0RE, UK"
+  - family-names: Cheng
+    given-names: Nuo
+    affiliation: "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Robinson Way, Cambridge CB2 0RE, UK"
+  - family-names: Örd
+    given-names: Mihkel
+    affiliation: "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Robinson Way, Cambridge CB2 0RE, UK"
+  - family-names: Augustin
+    given-names: Teresa L.
+    affiliation: "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Robinson Way, Cambridge CB2 0RE, UK"
+  - family-names: Li
+    given-names: Allyson
+    affiliation: "Department of Chemistry, Columbia University, 3000 Broadway, New York, NY 10027, USA"
+  - family-names: Shah
+    given-names: Neel H.
+    affiliation: "Department of Chemistry, Columbia University, 3000 Broadway, New York, NY 10027, USA"
+  - family-names: Rinehart
+    given-names: Jesse
+    affiliation: "Department of Cellular & Molecular Physiology, Yale School of Medicine, New Haven, CT 06520, USA; Systems Biology Institute, Yale University, West Haven, CT 06516, USA"
+  - family-names: Mott
+    given-names: Helen R.
+    affiliation: "Department of Biochemistry, University of Cambridge, Tennis Court Road, Cambridge CB2 1QW, UK"
+  - family-names: Creixell
+    given-names: Pau
+    affiliation: "Cancer Research UK Cambridge Institute, University of Cambridge, Li Ka Shing Centre, Robinson Way, Cambridge CB2 0RE, UK"
+
+contact:
+  - family-names: Creixell
+    given-names: Pau
+    affiliation: "Cancer Research UK Cambridge Institute, University of Cambridge, Cambridge, UK"
+
+preferred-citation:
+  type: article
+  title: "Identifying Protein Superbinders and Molecular Determinants of Epistasis with Combinatorial Deep Mutational Scanning (CDMS) Libraries"
+  status: in-preparation
+  year: 2025
+  authors:
+    - family-names: Jiang
+      given-names: Mingxuan
+    - family-names: Sun
+      given-names: Mohan
+    - family-names: Cheng
+      given-names: Nuo
+    - family-names: Örd
+      given-names: Mihkel
+    - family-names: Augustin
+      given-names: Teresa L.
+    - family-names: Li
+      given-names: Allyson
+    - family-names: Shah
+      given-names: Neel H.
+    - family-names: Rinehart
+      given-names: Jesse
+    - family-names: Mott
+      given-names: Helen R.
+    - family-names: Creixell
+      given-names: Pau
+  url: "https://github.com/Creixell-lab/ORACLE"
+
