@@ -93,15 +93,21 @@ oracle-epistasis \
 ```
 
 ### Usage Guide
-input: location of the .csv file format. (Can be /t or , delimited)
-outdir: location of the directory of the output file
-variant-col: the peptide name, can be encoded or represented with actual amino acids. Variable regions of the genotype of the dataset.
-phenotype-col: the experimental/computational measurement of the phenotype of the peptide sequence
-n: number of peptide positions investigated
-k: number of amino acids investigated per position
-max-order: maximum order of epistasis considered
-alphabet: amino acids or other encoding used in the genotype
 
-outputs in directory: 
-1) predicted.csv: the predicted phenotype from performing the ORACLE-epistasis approach from adding 1st, up to the max-order of epistasis
-2) epistasis_terms.csv: the coefficients of epistasis used in the calculations are given.
+**Input Parameters:**
+
+* `--input`: Path to the input `.csv` file (can be tab or comma delimited).
+* `--outdir`: Path to the directory where output files will be saved.
+* `--variant-col`: Column name containing the variant sequences (genotypes). These can be encoded or actual amino acids.
+* `--phenotype-col`: Column name containing the experimental or computational phenotype measurement.
+* `--n`: The length of the sequence (number of positions).
+* `--k`: The size of the alphabet (number of possible amino acids/characters per position).
+* `--max-order`: The maximum order of epistasis interactions to include in the model.
+* `--alphabet`: A comma-separated list of characters used in the genotypes (e.g., `a,b,c` or `A,C,D,E...`).
+
+**Output Files:**
+
+The script generates two files in the specified output directory:
+
+1.  `predicted.csv`: Contains the predicted phenotypes calculated by adding epistatic terms from the 1st order up to the specified `max-order`.
+2.  `epistasis_terms.csv`: Contains the calculated coefficients (weights) for the epistatic terms used in the model.
